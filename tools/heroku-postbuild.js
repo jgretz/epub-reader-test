@@ -1,6 +1,8 @@
 /* eslint-disable */
 require('shelljs/global');
 
+exec('yarn build');
+
 rm('-rf', 'api');
 rm('-rf', 'site');
 
