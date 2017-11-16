@@ -1,6 +1,7 @@
 import nodeBits from 'node-bits';
 import nodeBitsExpress, {cors, bodyParser, accessControl} from 'node-bits-express';
 import nodeBitsCode from 'node-bits-code';
+import nodeBitsSpa from 'node-bits-spa';
 
 import express from 'express';
 import path from 'path';
@@ -21,4 +22,5 @@ nodeBits([
   nodeBitsCode({
     path: `${__dirname}`,
   }),
+  nodeBitsSpa({path: `${__dirname}/site`}),
 ]);

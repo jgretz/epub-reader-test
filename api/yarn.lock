@@ -2412,6 +2412,14 @@ node-bits-express@^0.0.21:
     multer "^1.2.1"
     node-bits "^0.0.26"
 
+node-bits-spa@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/node-bits-spa/-/node-bits-spa-0.0.8.tgz#18afc19859105170b72483f55531f92bc1308799"
+  dependencies:
+    glob "^7.1.2"
+    lodash "^4.17.4"
+    node-bits "^0.0.26"
+
 node-bits@^0.0.26:
   version "0.0.26"
   resolved "https://registry.yarnpkg.com/node-bits/-/node-bits-0.0.26.tgz#8f7bec5359f00f6de05d7d5fe38a589a6ad9eaa1"
