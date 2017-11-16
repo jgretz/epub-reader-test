@@ -1,13 +1,22 @@
 import React, {Component} from 'react';
+import {withRouter} from 'react-router';
 
-import {Landing} from './features/shared/components';
+import {Pagemenu, Title} from './features/menu/components';
+import {Routes} from './features/shared/components';
 
 class App extends Component {
   render() {
     return (
-      <Landing />
+      <div className="container">
+        <Title />
+        <Pagemenu>
+          <Routes />
+        </Pagemenu>
+      </div>
     );
   }
 }
 
-export default App;
+export default withRouter(
+  App
+);
