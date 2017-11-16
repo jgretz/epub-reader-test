@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "node tools/build.js"
+    "build": "node tools/build.js",
+    "heroku-postbuild": "node tools/heroku-postbuild.js"
   },
   "dependencies": {
     "shelljs": "^0.7.8"
