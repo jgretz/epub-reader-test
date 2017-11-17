@@ -41,3 +41,9 @@ html, body, .app, .menu {
 .bold {
   font-weight: bold;
 }
+
+@media print {
+  html, body {
+     display: none;  /* hide whole page */
+  }
+}
