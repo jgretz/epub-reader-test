@@ -2,16 +2,6 @@ html, body, .app, .menu {
   height: 100%;
 }
 
-.ui.grid {
-  height: 100%;
-  margin: 0;
-}
-
-.ui.grid > .row,
-.ui.grid > .row > .column {
-  padding: 0;
-}
-
 .clickable {
   cursor: pointer;
 }

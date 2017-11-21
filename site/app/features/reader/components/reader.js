@@ -6,7 +6,7 @@ import {activeBookSelector} from '../selectors';
 import {makeBookUrl} from '../services';
 
 const reader = ({book}) => (
-  <div className="container noselect">
+  <div className="container noselect reader">
     <ReactReader
       key={book.file} // this key is essential to force a remount of the reader so the underlying epub.js is properly reloaded
       url={makeBookUrl(book.file)}
